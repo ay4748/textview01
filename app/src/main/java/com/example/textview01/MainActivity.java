@@ -29,5 +29,13 @@ public class MainActivity extends AppCompatActivity {
         {
             iv1.setImageResource(R.drawable.dog);
         }
+        if (x==2)
+        {
+            iv1.setImageResource(R.drawable.cat);
+        }
+        if (x==3)
+        {
+            iv1.setImageResource(R.drawable.rabbit);
+        }
     }
 }
