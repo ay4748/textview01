@@ -12,6 +12,7 @@
         android:layout_width="196dp"
         android:layout_height="59dp"
         android:layout_marginTop="168dp"
+        android:onClick="dodge"
         android:text="Click for image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

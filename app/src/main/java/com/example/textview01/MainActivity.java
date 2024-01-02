@@ -20,11 +20,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         iv1 = findViewById(R.id.iv);
+        btn = findViewById(R.id.btn);
     }
+
 
     public void dodge(View view) {
         x=rnd.nextInt(3)+1;
-        btn.setText("" + x);
+        btn.setText(" " + x);
         if (x==1)
         {
             iv1.setImageResource(R.drawable.dog);
@@ -37,5 +39,6 @@ public class MainActivity extends AppCompatActivity {
         {
             iv1.setImageResource(R.drawable.rabbit);
         }
+
     }
 }
